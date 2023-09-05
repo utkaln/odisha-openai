@@ -1,0 +1,6 @@
+version: "3"
+services:
+  base-app:
+    image: utkal/odisha-openai
+    ports:
+      - "49160:8080"
